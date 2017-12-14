@@ -2,8 +2,20 @@
 
 {% block body %}
 
-Votre score est de {{ cookie.totalCorrect }} points.
+    <p class="question-text text-center">Votre score est de {{ cookie.totalCorrect }} point(s).</p>
+    <div>
+        <p class="question-text text-center">Si tu as entre 0 et 2 points :</p>
+        <p class="question-text text-center">tu es un gros noob de l'électricité</p>
+    </div>
 
-    <script>console.log(document.cookie)</script>
+    <div>
+        <p class="question-text text-center">Si tu as entre 3 et 4 points :</p>
+        <p class="question-text text-center">tu es Flash (un semi-boloss)</p>
+    </div>
+
+    <div>
+        <p class="question-text text-center">Si tu as 5 points :</p>
+        <p class="question-text text-center">tu es Pikachu (un dieu de l'électricité)</p>
+    </div>
 
 {% endblock body %}

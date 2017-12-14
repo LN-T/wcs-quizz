@@ -3,11 +3,10 @@
 {% block body %}
 
     <div>
-        <p class="question-title text-center">Réponse 2/5
-            <br>
-            {% if answer2 == "A" %}
+        <p class="question-title text-center">Réponse :
+            {% if answer1 == "A" %}
                 YASSSS
-            {% elseif answer2 == "B" %}
+            {% elseif answer1 == "B" %}
                 NOPE
             {% endif %}
         </p>
@@ -19,9 +18,10 @@
         <p class="question-text text-center">Si tu vois un coffret électrique ouvert ou endommagé, n'y touche pas ! Appelle
             le numéro de dépannage Enedis si tu veux mais ne t'éléctrocute pas mdr.</p>
     </div>
+
     <div class="text-center">
-        <button type="button" class="btn btn-success btn-lg btn-quizz">
-            <p class="question-text"><a href="index.php?page=question3">Question suivante</a></p>
+        <button type="button" class="btn btn-warning btn-lg btn-next">
+            <p class="next-text"><a href="index.php?page=question3" class="next-link">Question suivante</a></p>
         </button>
     </div>
 

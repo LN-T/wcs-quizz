@@ -7,6 +7,8 @@
     font-weight: 500;
     font-size: 8em;
     color: white;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
 }
 
 .quizz-glyphe {
@@ -14,8 +16,9 @@
 }
 
 .quizz-image {
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    height: 35em;
 }
 
 .question-text {
@@ -23,24 +26,36 @@
     font-weight: 400;
     font-size: 4em;
     color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .btn-emoji {
     font-size: 8em;
 }
 
-.btn-one {
-    background-color: rgb(152,164,174) !important;
-    border: 1px solid rgb(152,164,174) !important;
+.btn-submit {
+/*    background-color: rgb(152,164,174);
+    border: 1px solid rgb(152,164,174);*/
     width: 45%;
     height: 10em;
     padding-top: 0;
+    margin: 1em;
 }
 
-.btn-two {
-    background-color: rgb(152,164,174) !important;
-    border: 1px solid rgb(152,164,174) !important;
-    width: 45%;
-    height: 10em;
-    padding-top: 0;
+.btn-next {
+
+}
+
+.next-text {
+    font-size: 2em;
+}
+
+.next-link {
+    color: white;
+}
+
+.next-link:hover {
+    color: white;
+    text-decoration: none;
 }

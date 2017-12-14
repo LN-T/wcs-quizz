@@ -1,0 +1,27 @@
+{% extends 'layout.html.twig' %}
+
+{% block body %}
+
+    <form action="index.php?page=answer1" method="post" id="quiz">
+        <div>
+            <p class="question-title text-center">Question 1/5</p>
+        </div>
+       <div class="text-center">
+            <img src="http://via.placeholder.com/500x250" alt="image question" class="quizz-image">
+        </div>
+        <div>
+            <p class="question-text text-center">Si je vois un coffret électrique ouvert, je referme la porte et
+                je continue ma petite vie oklm</p>
+        </div>
+        <div class="text-center">
+
+            <button type="submit" class="btn btn-success btn-lg btn-one" name="question-1-answers" value="A">
+                <p class="btn-emoji">🤔⁉️</p>
+            </button>
+            <button type="submit" class="btn btn-success btn-lg btn-false btn-two" name="question-1-answers" value="B">
+                <p class="btn-emoji">🚶👍</p>
+            </button>
+        </div>
+    </form>
+
+{% endblock body %}

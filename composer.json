@@ -1,0 +1,17 @@
+{
+    "name": "ln-t/quest_109_cookies",
+    "require": {
+        "twig/twig": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quest_109_Cookies\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LN-T",
+            "email": "LN-T@hotmail.com"
+        }
+    ]
+}

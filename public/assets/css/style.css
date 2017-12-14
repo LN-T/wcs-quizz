@@ -30,6 +30,14 @@
     margin-bottom: 1em;
 }
 
+.result-text {
+    font-family: 'Ubuntu', 'sans-serif';
+    font-weight: 400;
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 2em;
+}
+
 .btn-emoji {
     font-size: 8em;
 }
@@ -37,8 +45,8 @@
 .btn-submit {
 /*    background-color: rgb(152,164,174);
     border: 1px solid rgb(152,164,174);*/
-    width: 45%;
-    height: 10em;
+    width: 20em;
+    height: 20em;
     padding-top: 0;
     margin: 1em;
 }

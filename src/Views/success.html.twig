@@ -2,20 +2,20 @@
 
 {% block body %}
 
-    <p class="question-text text-center">Votre score est de {{ cookie.totalCorrect }} point(s).</p>
-    <div>
-        <p class="question-text text-center">Si tu as entre 0 et 2 points :</p>
-        <p class="question-text text-center">tu es un gros noob de l'électricité</p>
+    <p class="question-text text-center">Ton score est de {{ cookie.totalCorrect }} point(s).</p>
+    <div class="text-center result-text">
+        <img src="https://media.giphy.com/media/rfskmSvktqSoo/giphy.gif" alt="">
+        <p class="result-text text-center">Tu as entre 0 et 2 points : <br> tu es un.e gros.se noob de l'électricité 😆</p>
     </div>
 
-    <div>
-        <p class="question-text text-center">Si tu as entre 3 et 4 points :</p>
-        <p class="question-text text-center">tu es Flash (un semi-boloss)</p>
+    <div class="text-center result-text">
+        <img src="https://media.giphy.com/media/pAYrVJVVjkkuY/giphy.gif" alt="">
+        <p class="result-text text-center">Tu as entre 3 et 4 points : <br> tu es Flash (un.e semi-boloss du courant) 😏</p>
     </div>
 
-    <div>
-        <p class="question-text text-center">Si tu as 5 points :</p>
-        <p class="question-text text-center">tu es Pikachu (un dieu de l'électricité)</p>
+    <div class="text-center result-text">
+        <img src="https://media.giphy.com/media/12r4pHjvAOv48o/giphy.gif" alt="pikachu">
+        <p class="result-text text-center">Tu as 5 points : <br> tu es Pikachu, you got the power 😎</p>
     </div>
 
 {% endblock body %}

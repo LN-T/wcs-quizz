@@ -1,16 +1,39 @@
-{% extends 'layout.html.twig' %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-{% block body %}
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <title>Quizz</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+
+<body class="body-quizz">
+
+<div class="bg-white">
+    <p class="text-center"><img src="assets/img/quizz_logo.png" alt="quizz glyphe" class="quizz-glyphe">
+    </p>
+</div>
+
+<div class="container-fluid">
 
     <p class="question-text text-center">Ton score est de {{ cookie.totalCorrect }} point(s).</p>
     <div class="text-center result-text">
         <img src="https://media.giphy.com/media/rfskmSvktqSoo/giphy.gif" alt="">
-        <p class="result-text text-center">Tu as entre 0 et 2 points : <br> tu es un.e gros.se noob de l'électricité 😆</p>
+        <p class="result-text text-center">Tu as entre 0 et 2 points : <br> tu es un.e gros.se noob de l'électricité 😆
+        </p>
     </div>
 
     <div class="text-center result-text">
         <img src="https://media.giphy.com/media/pAYrVJVVjkkuY/giphy.gif" alt="">
-        <p class="result-text text-center">Tu as entre 3 et 4 points : <br> tu es Flash (un.e semi-boloss du courant) 😏</p>
+        <p class="result-text text-center">Tu as entre 3 et 4 points : <br> tu es Flash (un.e semi-boloss du courant) 😏
+        </p>
     </div>
 
     <div class="text-center result-text">
@@ -18,4 +41,14 @@
         <p class="result-text text-center">Tu as 5 points : <br> tu es Pikachu, you got the power 😎</p>
     </div>
 
-{% endblock body %}
+</div>
+
+<div class="bg-white">
+    <p class="text-center bandeau mb-0">
+        <a href="http://www.enedis.fr/se-premunir-contre-les-risques-electriques">👉 Si t'as un crush sur la 💖 sécurité électrique 💖, clique ici 👈</a>
+    </p>
+</div>
+
+</body>
+
+</html>

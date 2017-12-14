@@ -2,6 +2,10 @@
     background-color: rgb(0,94,184);
 }
 
+/*.body-success {
+    background-color: rgba(230,59,17,0.7);
+}*/
+
 .question-title {
     font-family: 'Ubuntu', 'sans-serif';
     font-weight: 500;
@@ -52,7 +56,7 @@
 }
 
 .btn-next {
-
+    margin-bottom: 1em;
 }
 
 .next-text {
@@ -66,4 +70,9 @@
 .next-link:hover {
     color: white;
     text-decoration: none;
+}
+
+.bandeau {
+    line-height: 5em;
+    font-size: 2em;
 }

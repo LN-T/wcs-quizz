@@ -212,7 +212,13 @@ class DefaultController extends Controller
             $cookievalue = $totalCorrect;
             setcookie($cookiename, $cookievalue, time() + 3600);
         }
-        header('Location: index.php?page=success');
+        return $this->twig->render('answer5.html.twig', array(
+            'session' => $_SESSION,
+            'cookie' => $_COOKIE,
+            'post' => $_POST,
+            'answer5' => $answer5,
+            'totalCorrect' => $totalCorrect
+        ));
     }
 
     /**

@@ -234,4 +234,15 @@ class DefaultController extends Controller
         session_destroy();
     }
 
+    /**
+     *
+     */
+    public function logoutAction()
+    {
+        session_start();
+        session_unset();
+        session_destroy();
+        header('Location: index.php');
+    }
+
 }

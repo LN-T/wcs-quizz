@@ -54,3 +54,7 @@ elseif ( ($_GET['page'] === 'answer5') ){
 elseif ( ($_GET['page'] === 'success') ){
     echo $defaultController->successAction();
 }
+
+elseif ( ($_GET['page'] === 'logout') ){
+    echo $defaultController->logoutAction();
+}

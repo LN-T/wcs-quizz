@@ -3,7 +3,7 @@
 // Get Vendor autoload
 require_once '../vendor/autoload.php';
 
-use Quest_109_Cookies\Controllers\DefaultController;
+use SnapQuizz\Controllers\DefaultController;
 
 $defaultController = new DefaultController();
 

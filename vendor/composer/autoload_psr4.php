@@ -8,5 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'Twig\\' => array($vendorDir . '/twig/twig/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
-    'Quest_109_Cookies\\' => array($baseDir . '/src'),
+    'SnapQuizz\\' => array($baseDir . '/src'),
 );

@@ -1,6 +1,6 @@
 <?php
 
-namespace Quest_109_Cookies\Controllers;
+namespace SnapQuizz\Controllers;
 
 /**
  * Class DefaultController

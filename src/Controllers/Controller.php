@@ -1,6 +1,6 @@
 <?php
 
-namespace Quest_109_Cookies\Controllers;
+namespace SnapQuizz\Controllers;
 
 use Twig_Loader_Filesystem;
 use Twig_Environment;

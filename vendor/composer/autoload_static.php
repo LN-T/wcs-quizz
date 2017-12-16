@@ -18,10 +18,7 @@ class ComposerStaticInited655aea2c0a319732ff7a6724280a1d
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
-        ),
-        'Q' => 
-        array (
-            'Quest_109_Cookies\\' => 18,
+            'SnapQuizz\\' => 10,
         ),
     );
 
@@ -34,7 +31,7 @@ class ComposerStaticInited655aea2c0a319732ff7a6724280a1d
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
-        'Quest_109_Cookies\\' => 
+        'SnapQuizz\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
